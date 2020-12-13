@@ -1,7 +1,7 @@
 import numpy as np
 
 # Part 1
-with open("/Users/axelwest/Desktop/Advent of Code/input_day_3.txt", "r+") as file:
+with open("Advent of Code/input_day_3.txt", "r+") as file:
     grid = file.readlines()
     x, y = 0, 0
     nr_of_trees = 0
@@ -18,7 +18,7 @@ with open("/Users/axelwest/Desktop/Advent of Code/input_day_3.txt", "r+") as fil
     print(nr_of_trees)
 
 # Part 2
-with open("/Users/axelwest/Desktop/Advent of Code/input_day_3.txt", "r+") as file:
+with open("Advent of Code/input_day_3.txt", "r+") as file:
     grid = file.readlines()
     def traverse_grid(x_step, y_step, grid):
         x, y = 0, 0

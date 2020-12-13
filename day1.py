@@ -1,5 +1,5 @@
 # Part 1
-with open("/Users/axelwest/Desktop/input_day_1.txt", "r+") as file:
+with open("Advent of Code/input_day_1.txt", "r+") as file:
     numbers = file.readlines()
     list_of_numbers = [int(number) for number in numbers]
     for number_1 in list_of_numbers:
@@ -10,7 +10,7 @@ with open("/Users/axelwest/Desktop/input_day_1.txt", "r+") as file:
 
 
 # Part 2                
-with open("/Users/axelwest/Desktop/input_day_1.txt", "r+") as file:
+with open("Advent of Code/input_day_1.txt", "r+") as file:
     numbers = file.readlines()
     list_of_numbers = [int(number) for number in numbers]
     for number_1 in list_of_numbers:

@@ -1,5 +1,5 @@
 # Part 1
-with open("/Users/axelwest/Desktop/Advent of Code/input_day_2.txt", "r+") as file:
+with open("Advent of Code/input_day_2.txt", "r+") as file:
     passwords = file.readlines()
     list_of_passwords = [password.split(":") for password in passwords]
     character_occurrences = [password[1].count(f'{password[0][-1]}') for password in list_of_passwords]
@@ -11,7 +11,7 @@ with open("/Users/axelwest/Desktop/Advent of Code/input_day_2.txt", "r+") as fil
     print(f'Number of valid passwords is {number_valid_passwords}')
 
 # Part 2
-with open("/Users/axelwest/Desktop/Advent of Code/input_day_2.txt", "r+") as file:
+with open("Advent of Code/input_day_2.txt", "r+") as file:
     passwords = file.readlines()
     list_of_passwords = [password.split(":") for password in passwords]
     occurrences_criteria = [tuple(password[0].split("-")) for password in list_of_passwords]
