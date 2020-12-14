@@ -1,5 +1,5 @@
 # Part 1
-with open('Users/axelwest/Desktop/Advent of Code/input_day_4.txt', 'r+') as file:
+with open('Advent of Code/input_day_4.txt', 'r+') as file:
     batch = file.readlines()
     joined_batch = "".join(batch)
     batch = joined_batch.split("\n\n")
@@ -15,7 +15,7 @@ with open('Users/axelwest/Desktop/Advent of Code/input_day_4.txt', 'r+') as file
 import pandas as pd
 import numpy as np
 # Part 2
-with open('/Users/axelwest/Desktop/Advent of Code/input_day_4.txt', 'r+') as file:
+with open('Advent of Code/input_day_4.txt', 'r+') as file:
     batch = file.readlines()
     joined_batch = "".join(batch)
     batch = joined_batch.split("\n\n")
