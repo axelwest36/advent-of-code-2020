@@ -20,7 +20,7 @@ def get_contained_bags(rules, start_bag, multiplier):
             continue
 
 # Part 1
-with open("/Users/axelwest/Desktop/Advent of Code/input_day_7.txt", "r+") as file:
+with open("Advent of Code/input_day_7.txt", "r+") as file:
     rules = file.readlines()
     rules = {parse("{} bags contain {}.", rule)[0]: parse("{} bags contain {}.", rule)[1].split(", ")  for rule in rules}
     list_of_container_bags = []
@@ -28,7 +28,7 @@ with open("/Users/axelwest/Desktop/Advent of Code/input_day_7.txt", "r+") as fil
     print(len(set(list_of_container_bags)))
 
 # Part 2
-with open("/Users/axelwest/Desktop/Advent of Code/input_day_7.txt", "r+") as file:
+with open("Advent of Code/input_day_7.txt", "r+") as file:
     rules = file.readlines()
     rules = {parse("{} bags contain {}.", rule)[0]: parse("{} bags contain {}.", rule)[1].split(", ")  for rule in rules}
     dict_of_contained_bags = {}
