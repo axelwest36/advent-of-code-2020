@@ -16,7 +16,7 @@ def read_instructions(instructions):
             current_line += 1
     return accumulator
 
-with open("/Users/axelwest/Desktop/Advent of Code/input_day_8.txt", "r+") as file:
+with open("Advent of Code/input_day_8.txt", "r+") as file:
     instructions = [f.strip("\n").split(" ") for f in file]
     result = read_instructions(instructions)
     print(result)
@@ -50,7 +50,7 @@ def fix_instructions(instructions):
             current_line += 1
     return accumulator
 
-with open("/Users/axelwest/Desktop/Advent of Code/input_day_8.txt", "r+") as file:
+with open("Advent of Code/input_day_8.txt", "r+") as file:
     instructions = [f.strip("\n").split(" ") for f in file]
     result = fix_instructions(instructions)
     print(result)
